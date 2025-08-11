@@ -52,4 +52,31 @@
 ![FileZilla](https://img.shields.io/badge/FileZilla-BF0000?style=flat&logo=filezilla&logoColor=white)
 ![Studio 3T](https://img.shields.io/badge/Studio%203T-47A248?style=flat&logoColor=white)
 
+---
 
+## 설치 및 실행
+
+1. 레포지토리 클론
+
+```bash
+git clone https://github.com/qkrwns1478/digital-fortune-cookie.git
+cd digital-fortune-cookie
+```
+
+2. `.env` 파일 생성
+
+```bash
+JWT_SECRET_KEY=
+MONGO_HOST=
+MONGO_PORT=
+MONGO_USERNAME=
+MONGO_PASSWORD=
+MONGO_DV_NAME=
+```
+
+3. 백엔드 설치 및 실행
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
